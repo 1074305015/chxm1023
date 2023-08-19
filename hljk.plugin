@@ -1,9 +1,0 @@
-#!name = 监控汇率
-#!desc = 监控每日汇率，地址已改请更换
-#!openUrl = https://raw.githubusercontent.com/chxm1023/Task/Loon/hljk.plugin
-#!author = Peng-YM
-#!homepage = https://github.com/chxm1023/Script_X/blob/main/README.md
-#!icon = https://raw.githubusercontent.com/chxm1023/Task/main/icon/hljk.png
-
-[Script]
-cron "10 0 * * ?" script-path=https://raw.githubusercontent.com/chxm1023/Task/main/hljk.js, timeout=10, tag=汇率监控, img-url=https://raw.githubusercontent.com/chxm1023/Task/main/icon/hljk.png
