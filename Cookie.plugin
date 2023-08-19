@@ -1,0 +1,40 @@
+#!name = 获取Cookie合集
+#!desc = 获取Cookie信息
+#!openUrl = 
+#!author = chxm1023
+#!homepage = https://t.me/chxm1023
+#!icon = https://raw.githubusercontent.com/chxm1023/Task/main/icon/wk.png
+
+
+[Script]
+http-response https:\/\/auth.aliyundrive.com\/v2\/account\/token script-path=https://raw.githubusercontent.com/lowking/Scripts/master/ali/aliYunPanCheckIn.js, requires-body=true, timeout=10, tag=阿里云盘签到cookie, img-url=https://raw.githubusercontent.com/chxm1023/Task/main/icon/alwp.png
+
+
+# 网页登录获取CK：https://bean.m.jd.com/bean/signIndex.action
+http-request ^https:\/\/(api\.m|me-api)\.jd\.com\/(client\.action\?functionId=signBean|user_new\/info\/GetJDUserInfoUnion\?) script-path=https://raw.githubusercontent.com/chxm1023/Task/main/JD/JD_DailyBonus.js, requires-body=false, tag=JD京东, img-url=https://raw.githubusercontent.com/chxm1023/Task/main/JD/icons/jd.png
+
+
+http-request ^https?:\/\/(c\.tieba\.baidu\.com|180\.97\.\d+\.\d+)\/c\/s\/login script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/tieba/tieba_signin.js,tag=贴吧_获取Cookie1, img-url=https://raw.githubusercontent.com/chxm1023/Task/main/icon/tieba.png
+
+http-request ^https?:\/\/c\.tieba\.baidu\.com\/c\/s\/channelIconConfig script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/tieba/tieba_signin.js,tag=贴吧_新版Cookie2, img-url=https://raw.githubusercontent.com/chxm1023/Task/main/icon/tieba.png
+
+http-request ^https?:\/\/tiebac\.baidu\.com\/c\/u\/follow\/getFoldedMessageUserInfo script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/tieba/tieba_signin.js,tag=贴吧_新版Cookie3, img-url=https://raw.githubusercontent.com/chxm1023/Task/main/icon/tieba.png
+
+
+http-request ^https?:\/\/app\.bilibili\.com\/x\/resource\/domain\? script-path=https://raw.githubusercontent.com/ClydeTime/Quantumult/main/Script/Task/BiliBili.js, requires-body=false, tag=哔哩哔哩, img-url=https://raw.githubusercontent.com/chxm1023/Task/main/icon/bilibili.png
+
+http-request ^https?:\/\/m.bilibili.com/$ script-path=https://raw.githubusercontent.com/ClydeTime/Quantumult/main/Script/Task/BiliBili.js, requires-body=false, tag=哔哩哔哩, img-url=https://raw.githubusercontent.com/chxm1023/Task/main/icon/bilibili.png
+
+
+http-request ^https?:\/\/magicisland\.58\.com\/web\/sign\/getIndexSignInInfo script-path=https://raw.githubusercontent.com/leafTheFish/DeathNote/main/58tc.js, requires-body=false, tag=58同城, img-url=https://raw.githubusercontent.com/chxm1023/Task/main/icon/58tc.png
+
+
+http-request ^https?:\/\/gjgrowthoper\.58\.com\/user\/userinfo script-path=https://raw.githubusercontent.com/chxm1023/Task/main/gjzz.js, requires-body=false, tag=赶集直招,img-url=https://raw.githubusercontent.com/chxm1023/Task/main/icon/ganji.png
+
+
+http-request ^https?:\/\/apph5\.manmanbuy\.com\/taolijin\/(login.aspx|logserver.aspx) script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/manmanbuy/manmanbuy_checkin.js, requires-body=true, tag=慢慢买,img-url=https://raw.githubusercontent.com/chxm1023/Task/main/icon/manmanmai.png
+
+
+
+[MITM]
+hostname = auth.aliyundrive.com, ms.jr.jd.com, me-api.jd.com, api.m.jd.com, c.tieba.baidu.com,  *.bilibili.com, *.ele.me, magicisland.58.com, gjgrowthoper.58.com, apph5.manmanbuy.com
