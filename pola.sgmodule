@@ -1,0 +1,11 @@
+#!name = 泼辣修图
+#!author = chxm1023
+#!homepage = https://github.com/chxm1023/Script_X
+#!desc = 感谢@三岁/@baby提供数据
+#!url= https://raw.githubusercontent.com/chxm1023/Rewrite/Surge/pola.sgmodule
+
+[Script]
+泼辣修图 = type=http-response,pattern=^https?:\/\/api\.polaxiong\.com\/.+\/payments\/(profiles\/.+\/subscription|appleiap\/receipts\/confirmation),requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/chxm1023/Rewrite/main/pola.js
+
+[MITM]
+hostname = %APPEND% api.polaxiong.com
