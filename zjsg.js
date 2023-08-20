@@ -19,6 +19,6 @@ hostname = integral2.dasyibalang.com
 
 var chxm1023 = JSON.parse($response.body);
 
-chxm1023.data = { ...chxm1023.data, VIP: 3, MembersBeginDateMs: 1666666666666, IOSTrialEndDateMs: 4092599349000, TrialEndDateMs: 4092599349000, MembersEndDateMs: 4092599349000 };
+chxm1023.data = { ...chxm1023.data, VIP: 3, MembersBeginDateMs: 1666666666666, MembersEndDateMs: 4092599349000 };
 
 $done({body : JSON.stringify(chxm1023)});
