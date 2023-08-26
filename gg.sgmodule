@@ -1,0 +1,12 @@
+#!name = 某个GG
+#!author = chxm1023
+#!homepage = https://github.com/chxm1023/Script_X
+#!desc = 高级会员
+#!url= https://raw.githubusercontent.com/chxm1023/Rewrite/Surge/Goodnotes6.sgmodule
+
+[Script]
+Goodnotes6 = type=http-response,pattern=^https:\/\/isi\..*\.g.*\.com\/.+\/(receipts$|subscribers\/?(.*?)*$),requires-body=1,max-size=0,script-path=http://git.yycm.link/chxm1023/Rewrite/raw/main/gg.js
+Goodnotes = type=http-request,pattern=^https:\/\/isi\..*\.g.*\.com\/.+\/(receipts$|subscribers\/?(.*?)*$),requires-body=0,max-size=0,script-path=http://git.yycm.link/chxm1023/Rewrite/raw/main/gg.js
+
+[MITM]
+hostname = %APPEND% isi.*.g*.com
