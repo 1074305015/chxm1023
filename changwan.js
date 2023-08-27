@@ -24,15 +24,15 @@ chxm1023.info.LevelInfo = {
       "LastTime" : "0001-01-01T00:00:00Z",
       "AllVipXP" : 1,
       "SVipExpires" : "2099-09-09T09:09:09Z",
-      "VipLevel" : 1,
+      "VipLevel" : 5,
       "Svip" : 1,
       "NextVipXP" : 1,
       "VipExpires" : "2099-09-09T09:09:09Z",
       "Level" : 99,
-      "NowXP" : 1,
+      "NowXP" : 999,
       "NowVipXP" : 1,
       "AllXP" : 1,
-      "NextLevel" : 1
+      "NextLevel" : 999
     };
 
 $done({body : JSON.stringify(chxm1023)});
