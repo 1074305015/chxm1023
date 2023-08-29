@@ -22,7 +22,7 @@ const chxm1023 = {};
 const chxm1024 = JSON.parse(typeof $response != "undefined" && $response.body || null);
 
 const name = "pro";
-const appid = "com.fiftythree.paper.credit.bundle.2";
+const appid = "com.fiftythree.paper.credit";
 
   
 if (typeof $response == "undefined") {
@@ -36,7 +36,6 @@ if (typeof $response == "undefined") {
  "warning": "仅供学习，禁止转载或售卖",
  "original_purchase_date": "2022-09-09T09:09:09Z",
  "purchase_date": "2022-09-09T09:09:09Z",
- "expires_date": "2099-09-09T09:09:09Z",
  "store" : "app_store",
  "ownership_type": "PURCHASED"
  };
