@@ -30,14 +30,19 @@ chxm1023 = {
       {
         "quantity" : "1",
         "purchase_date_ms" : "1686065612000",
+        "expires_date" : "2099-09-09 09:09:09 Etc/GMT",
+        "expires_date_pst" : "2099-09-09 06:06:06 America/Los_Angeles",
+        "is_in_intro_offer_period" : "false",
         "transaction_id" : "490001314520000",
         "is_trial_period" : "false",
         "original_transaction_id" : "490001314520000",
         "purchase_date" : "2023-06-06 16:06:06 Etc/GMT",
-        "product_id" : "com.singingfish.sudokugame.one",
+        "product_id" : "com.singingfish.sudokugame.year",
         "original_purchase_date_pst" : "2023-06-06 06:06:07 America/Los_Angeles",
         "in_app_ownership_type" : "PURCHASED",
         "original_purchase_date_ms" : "1686065613000",
+        "web_order_line_item_id" : "490000123456789",
+        "expires_date_ms" : "4092599349000",
         "purchase_date_pst" : "2023-06-06 06:06:06 America/Los_Angeles",
         "original_purchase_date" : "2023-06-06 16:06:07 Etc/GMT"
       }
@@ -61,14 +66,19 @@ chxm1023 = {
     {
       "quantity" : "1",
       "purchase_date_ms" : "1686065612000",
+      "expires_date" : "2099-09-09 09:09:09 Etc/GMT",
+      "expires_date_pst" : "2099-09-09 06:06:06 America/Los_Angeles",
+      "is_in_intro_offer_period" : "false",
       "transaction_id" : "490001314520000",
       "is_trial_period" : "false",
       "original_transaction_id" : "490001314520000",
       "purchase_date" : "2023-06-06 16:06:06 Etc/GMT",
-      "product_id" : "com.singingfish.sudokugame.one",
+      "product_id" : "com.singingfish.sudokugame.year",
       "original_purchase_date_pst" : "2023-06-06 06:06:07 America/Los_Angeles",
       "in_app_ownership_type" : "PURCHASED",
       "original_purchase_date_ms" : "1686065613000",
+      "web_order_line_item_id" : "490000123456789",
+      "expires_date_ms" : "4092599349000",
       "purchase_date_pst" : "2023-06-06 06:06:06 America/Los_Angeles",
       "original_purchase_date" : "2023-06-06 16:06:07 Etc/GMT"
     }
@@ -77,9 +87,9 @@ chxm1023 = {
   "environment" : "Production",
   "pending_renewal_info" : [
     {
-      "product_id" : "com.singingfish.sudokugame.one",
+      "product_id" : "com.singingfish.sudokugame.year",
       "original_transaction_id" : "490001314520000",
-      "auto_renew_product_id" : "com.singingfish.sudokugame.one",
+      "auto_renew_product_id" : "com.singingfish.sudokugame.year",
       "auto_renew_status" : "1"
     }
   ],
