@@ -10,6 +10,7 @@
 
 [rewrite_local]
 ^https?:\/\/cs\.kuso\.xyz\/configs.+ url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/iscreenfz.js
+^https?:\/\/pay\.kuso\.xyz\/pay\/pay-check url reject-200
 
 [mitm]
 hostname = cs.kuso.xyz
