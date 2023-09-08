@@ -1,6 +1,6 @@
 /*************************************
 
-项目名称：Vision-个人OKR目标管理工貝
+项目名称：Vision-个人OKR目标管理
 下载地址：https://t.cn/A6OxXNxK
 脚本作者：chxm1023
 电报频道：https://t.me/chxm1023
