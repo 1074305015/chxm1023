@@ -19,15 +19,15 @@ hostname = api.revenuecat.com
 
 
 const chxm1023 = {};
-const chxm1024 = JSON.parse(typeof $response != "undefined" && $response.内容 || null);
+const chxm1024 = JSON.parse(typeof $response != "undefined" && $response.body || null);
 
-const 名字 = "premium";
-const appid = "hurtyou_199_1y";
+const name = "premium";
+const appid = "truth_or_dare_premium_monthly";
 
   
 if (typeof $response == "undefined") {
-  删除 $request.headers["x-revenuecat-etag"];
-  删除 $request.headers["X-RevenueCat-ETag"];
+  delete $request.headers["x-revenuecat-etag"];
+  delete $request.headers["X-RevenueCat-ETag"];
   chxm1023.headers = $request.headers;
 } else if (chxm1024 && chxm1024.subscriber) {
   data = {
@@ -40,10 +40,10 @@ if (typeof $response == "undefined") {
  "store" : "app_store",
  "ownership_type": "PURCHASED"
  };
-  chxm1024.subscriber。订阅[(appid)] = data
-  chxm1024.subscriber。entitlements[(名字)] = JSON.parse(JSON.stringify(data));
-  chxm1024.subscriber。entitlements[(名字)]。product_identifier = (appid);
-  chxm1023.内容 = JSON.stringify(chxm1024);
+  chxm1024.subscriber.subscriptions[(appid)] = data
+  chxm1024.subscriber.entitlements[(name)] = JSON.parse(JSON.stringify(data));
+  chxm1024.subscriber.entitlements[(name)].product_identifier = (appid);
+  chxm1023.body = JSON.stringify(chxm1024);
 }
 
 $done(chxm1023);
