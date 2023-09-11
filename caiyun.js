@@ -72,6 +72,8 @@ urls.forEach(url => {
           svip_expired_at: 4092599349,
           svip_take_effect: 1,
           vip_type: "s",
+          name: "叮当猫の分享频道",
+          avatar: "https://thirdwx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTI6OLWyDbM42w944dUdfzrPEQv6uaD3AEsVcicibYibxG9PBBSaibwqRJzOk2US1d8N4hC9nL1a5rXu3g/132",
           token: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ2ZXJzaW9uIjoxLCJ1c2VyX2lkIjoiNWY1YmZjNTdkMmM2ODkwMDE0ZTI2YmI4Iiwic3ZpcF9leHBpcmVkX2F0IjoxNzA1MzMxMTY2LjQxNjc3MSwidmlwX2V4cGlyZWRfYXQiOjB9.h_Cem89QarTXxVX9Z_Wt-Mak6ZHAjAJqgv3hEY6wpps"
         }
         break;
