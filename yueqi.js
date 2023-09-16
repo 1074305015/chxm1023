@@ -15,7 +15,7 @@
 ^https:\/\/.*api\.quthing\.com\/(.+\/vip|vip|student|user|appearance|background|rest) url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/yueqi.js
 
 [mitm]
-hostname = *api\.quthing\.com
+hostname = *api.quthing.com
 
 *************************************/
 
