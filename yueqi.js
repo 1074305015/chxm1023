@@ -20,7 +20,6 @@ hostname = *api.quthing.com
 *************************************/
 
 
-
 var body = $response.body;
 
 body = body.replace(/\"trialPeriod":\w+/g, '\"trialPeriod":true');
