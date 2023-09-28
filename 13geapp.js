@@ -1,6 +1,6 @@
 /*************************************
 
-项目名称：15个APP解锁全家桶
+项目名称：13个APP解锁全家桶
 下载地址：https://t.cn/A6Ouq9uD
 脚本作者：chxm1023
 电报频道：https://t.me/chxm1023
@@ -9,7 +9,7 @@
 **************************************
 
 [rewrite_local]
-^https?:\/\/(appss|standard)\.(rhinox.*|linhongshi)\.com\/.+\/account\/getAccountInfo url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/15geapp.js
+^https?:\/\/(appss|standard)\.(rhinox.*|linhongshi)\.com\/.+\/account\/getAccountInfo url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/13geapp.js
 
 [mitm]
 hostname = *.rhinox*.com, appss.linhongshi.com
