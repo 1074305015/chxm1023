@@ -9,10 +9,10 @@
 **************************************
 
 [rewrite_local]
-^https?:\/\/api\.hujuvod\.com\/(user\/personal\/information|app\/drama\/page) url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/renrenshipin.js
+^https?:\/\/api\.(hujuvod\.com|qwapp\.top)\/(user\/personal\/information|app\/drama\/page) url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/renrenshipin.js
 
 [mitm]
-hostname = api.hujuvod.com
+hostname = api.hujuvod.com, api.qwapp.top
 
 *************************************/
 
