@@ -41,7 +41,6 @@ if (typeof $response == "undefined") {
   chxm1024.subscriber.entitlements = chxm1024.subscriber.entitlements || {};
   const data = {
 	"product_identifier": (appid),
-	"expires_date": "2099-09-09T09:09:09Z",
 	"purchase_date": "2022-09-09T09:09:09Z"
 	};
   chxm1024.subscriber.entitlements[(name)] = (data);
