@@ -21,6 +21,8 @@ hostname = api.revenuecat.com
 
 const chxm1023 = {};
 const chxm1024 = JSON.parse(typeof $response != "undefined" && $response.body || null);
+const ua = $request.headers['User-Agent'] || $request.headers['user-agent'];
+
 //小熊记账
 if (ua.indexOf('money_manager') != -1) {
   name = "premium";
