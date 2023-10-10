@@ -9,10 +9,10 @@
 **************************************
 
 [rewrite_local]
-https?:\/\/api\..*lianqin.*\.(com|cn)\/client\/v\d\/(user_vip|my_info) url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/yiqilianqin.js
+https?:\/\/api\.(.*lianqin.*|mangofuture)\.(com|cn)\/client\/v\d\/(user_vip|my_info) url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/yiqilianqin.js
 
 [mitm]
-hostname = api.*lianqin*.*
+hostname = api.*lianqin*.*,api.mangofuture.cn
 
 *************************************/
 
